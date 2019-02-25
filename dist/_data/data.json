@@ -63,19 +63,19 @@
 	"field": {},
 	"primaryNav": [
 		{
-			"label": "",
+			"label": "Primary Nav Item 1",
 			"url": ""
 		},
 		{
-			"label": "",
+			"label": "Primary Nav Item 2",
 			"url": ""
 		},
 		{
-			"label": "",
+			"label": "Primary Nav Item 3",
 			"url": ""
 		},
 		{
-			"label": "",
+			"label": "Primary Nav Item 4",
 			"url": ""
 		}
 	],
