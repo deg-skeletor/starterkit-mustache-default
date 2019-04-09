@@ -1,6 +1,6 @@
 {{# textarea }}
 	<textarea 
-		class="input input--textarea {{ styleModifier }}{{# isInvalid }} input--invalid{{/ isInvalid }}" 
+		class="input input--textarea{{# styleModifier }} {{ styleModifier }}{{/ styleModifier }}{{# isInvalid }} input--invalid{{/ isInvalid }}" 
 		id="{{ id }}" 
 		name="{{# name }}{{ name }}{{/ name }}{{^ name }}{{ id }}{{/ name }}" 
 		{{# placeholder }}placeholder="{{ placeholder }}"{{/ placeholder }}

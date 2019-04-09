@@ -1,7 +1,7 @@
 {{# button }}
     <button 
         type="{{ type }}" 
-        class="button {{# isAlt }}button--alt{{/ isAlt }} {{ cssClass }}" 
+        class="button{{# isAlt }} button--alt{{/ isAlt }}{{# cssClass }} {{ cssClass }}{{/ cssClass }}" 
         {{# isDisabled }}disabled{{/ isDisabled }}>
         {{ content }}
     </button>
