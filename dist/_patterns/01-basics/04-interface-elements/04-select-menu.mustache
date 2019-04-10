@@ -1,6 +1,6 @@
 {{# select }}
 	<select 
-		class="input input--select {{ styleModifier }}{{# isInvalid }} input--invalid{{/ isInvalid }}" 
+		class="input input--select{{# styleModifier }} {{ styleModifier }}{{/ styleModifier }}{{# isInvalid }} input--invalid{{/ isInvalid }}" 
 		id="{{ id }}" 
 		name="{{# name }}{{ name }}{{/ name }}{{^ name }}{{ id }}{{/ name }}"
 		{{# isRequired }}required aria-required="true"{{/ isRequired}}
